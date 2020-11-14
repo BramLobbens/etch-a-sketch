@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    line-height: 0;
+}
+
+.grid-row, .grid-col {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-row {
+    display: block;
+    height: 0;
+    width: 0;
+}
+
+.grid-col {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.blue {
+    background-color: blue;
+}
